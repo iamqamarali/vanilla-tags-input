@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="tags-input.css">
+    <style>
+        body{
+            font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h2>Tags</h2>
+    <input type="text" id="tag-input1">
+
+    <script src="tags-input.js"></script>
+
+    <script>
+        var tagInput1 = new TagsInput({
+            selector: 'tag-input1',
+            duplicate : false,
+            max : 10
+        });
+        tagInput1.addData(['PHP' , 'JavaScript' , 'CSS'])
+    
+    </script>
+</body>
+</html>
