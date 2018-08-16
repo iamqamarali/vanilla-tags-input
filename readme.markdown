@@ -1,5 +1,5 @@
 # JavaScript Tags Input Plugin
-It is a simple plugin for JavaScript for to for making a **Tags Input field** element.
+It is a simple plugin for JavaScript to making a **Tags Input field**.
 
 Here is a [Demo on codepen](https://codepen.io/iamqamarali/pen/qyawoR)
 
