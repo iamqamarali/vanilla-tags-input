@@ -4,11 +4,7 @@ There isn't any dependency for this library, add it straight in your project and
 
 ### Install via npm
 ```bash
- npm install vanilla-tags-input
-```
-### Import In ES6 or Greater
-```javascript
-import TagsInput from 'vanilla-tags-input'
+npm install vanilla-tags-input
 ```
 ### Require in Node
 ```javascript
@@ -78,7 +74,7 @@ tagsInput1.init().addTag().addData().destroy().init()
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
-Copyright (c) 2013-present, Yuxi (Evan) You
+Copyright (c) 2018-present, Qamar Ali
 
 
 ## For Learning Purposes
