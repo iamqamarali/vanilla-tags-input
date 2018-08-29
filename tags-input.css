@@ -15,10 +15,11 @@
     display: inline-block;
     background-color: #fa0e7e;
     color: white;
+    font-size: 14px;
     border-radius: 40px;
     padding: 0px 3px 0px 7px;
     margin-right: 5px;
-    margin-bottom:5px;
+    margin-bottom:7px;
     box-shadow: 0 5px 15px -2px rgba(250 , 14 , 126 , .7)
 }
 .tags-input-wrapper .tag a {

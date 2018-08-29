@@ -1,0 +1,28 @@
+{
+  "name": "vanilla-tags-input",
+  "version": "1.0.0",
+  "description": "A simple JavaScript library for creating Tags-input element on DOM",
+  "main": "tags-input.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamqamarali/tags-input.git"
+  },
+  "keywords": [
+    "tags-input",
+    "plugin",
+    "javascript",
+    "tags-input"
+  ],
+  "author": "Qamar Ali <iamqamarali0@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamqamarali/tags-input/issues"
+  },
+  "homepage": "https://github.com/iamqamarali/tags-input#readme"
+}
