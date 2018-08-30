@@ -1,7 +1,7 @@
 {
   "name": "vanilla-tags-input",
   "version": "1.0.0",
-  "description": "A simple JavaScript library for creating Tags-input element on DOM",
+  "description": "Native JavaScript library for creating Tags-input element in DOM",
   "main": "tags-input.js",
   "directories": {
     "example": "example"
