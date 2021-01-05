@@ -10,8 +10,7 @@
 })(function(){
     "use strict"
 
-    var initialized = false
-
+    
     // Plugin Constructor
     var TagsInput = function(opts){
         this.options = Object.assign(TagsInput.defaults , opts);
@@ -22,7 +21,7 @@
     TagsInput.prototype.init = function(opts){
         this.options = opts ? Object.assign(this.options, opts) : this.options;
 
-        if(initialized)
+        if(this.initialized)
             this.destroy();
             
         if(!(this.orignal_input = document.getElementById(this.options.selector)) ){
@@ -36,7 +35,7 @@
         init(this);
         initEvents(this);
 
-        initialized =  true;
+        this.initialized =  true;
         return this;
     }
 
@@ -129,7 +128,7 @@
                 delete self[key];
         });
 
-        initialized = false;
+        this.initialized = false;
     }
 
     // Private function to initialize the tag input plugin
@@ -148,11 +147,11 @@
         
 
         tags.input.addEventListener('keydown' , function(e){
-
             var str = tags.input.value.trim(); 
 
             if( !!(~[9 , 13 , 188].indexOf( e.keyCode ))  )
             {
+                e.preventDefault();
                 tags.input.value = "";
                 if(str != "")
                     tags.addTag(str);
